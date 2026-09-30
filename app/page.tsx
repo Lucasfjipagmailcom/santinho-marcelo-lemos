@@ -26,6 +26,19 @@ const fields: Field[] = [
 const ART_WIDTH = 900;
 const ART_HEIGHT = 1600;
 
+console.log(`
+╔══════════════════════════════════════════════════════╗
+║                                                      ║
+║              🚨 AVISO IMPORTANTE 🚨                  ║
+║                                                      ║
+║       NÃO RECEBI NADA PRA FAZER ISSO,                ║
+║                  SR. MORAES!                         ║
+║                                                      ║
+║                                                      ║
+╚══════════════════════════════════════════════════════╝
+`);
+
+
 export default function Home() {
   const [values, setValues] = useState<Record<string, string[]>>(() =>
     Object.fromEntries(fields.map((field) => [field.id, Array(field.digits).fill("")]))
@@ -120,7 +133,7 @@ export default function Home() {
               alt="Santinho eleitoral original"
               draggable={false}
               className="absolute inset-0 h-full w-full select-none object-fill"
-              onLoad={() => {}}
+              onLoad={() => { }}
             />
             {fields.map((field) => (
               <div
