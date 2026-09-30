@@ -173,7 +173,7 @@ export default function Home() {
               onClick={downloadImage}
               className="inline-flex min-h-12 flex-1 items-center justify-center gap-2 rounded-xl bg-blue-700 px-5 py-3 text-sm font-bold text-white shadow-sm transition hover:bg-blue-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700"
             >
-              <DownloadIcon /> Baixar imagem PNG
+              <DownloadIcon /> Baixar o santinho
             </button>
             <button
               type="button"
