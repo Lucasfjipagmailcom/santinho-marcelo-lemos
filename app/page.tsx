@@ -26,18 +26,6 @@ const fields: Field[] = [
 const ART_WIDTH = 900;
 const ART_HEIGHT = 1600;
 
-console.log(`
-╔══════════════════════════════════════════════════════╗
-║                                                      ║
-║              🚨 AVISO IMPORTANTE 🚨                  ║
-║                                                      ║
-║       NÃO RECEBI NADA PRA FAZER ISSO,                ║
-║                  SR. MORAES!                         ║
-║                                                      ║
-║                                                      ║
-╚══════════════════════════════════════════════════════╝
-`);
-
 
 export default function Home() {
   const [values, setValues] = useState<Record<string, string[]>>(() =>
